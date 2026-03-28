@@ -1,0 +1,88 @@
+\section{Project timeline}
+
+The project timeline is organized into five phases reflecting the complexities of a material research program progressing from synthesis to operando validation and scientific dissemination. 
+
+Phase I — Materials Development: The project begins with the synthesis of nanostructured materials for solid oxide fuel cells (SOFCs), solid oxide electrolyzer cells (SOECs), and nanocatalysts for ethanol steam reforming. The overlap during the initial quarters allows rapid iteration between compositions, microstructure control, and defect engineering strategies. In parallel, the conceptual design of specialized in-situ and operando cells for experiments at the QUATI beamline is undertaken, ensuring that material design is aligned from the start with synchrotron compatibility requirements such as X-ray transparency, thermal stability, and controlled gas atmosphere operation.
+
+Phase II — Advanced Characterization: During the second stage of the timeline, characterization of all developed nanomaterials becomes central. Crystallographic analysis, phase stability assessment, and lattice parameter refinement are performed to confirm phase purity. Simultaneously, textural and morphological characterization provides insight into porosity distribution, and particle size evolution. This phase will guide the selection of candidate materials. Electrochemical and redox catalytic characterizations are introduced at this point, allowing evaluation of polarization resistance, catalytic efficiency, and redox stability under controlled laboratory conditions. The overlap of synthesis refinement with characterization ensures rapid feedback and optimization.
+
+Phase III — Device Integration: The assembly of small-sized SOFCs and SOECs marks the transition from material evaluation to device validation. These prototype cells serve as platforms for electrochemical benchmarking and degradation studies. In parallel, optimization of the QUATI beamline configuration for in-situ and operando studies is initiated. Initial in-situ experiments validate experimental geometry, signal-to-noise ratios, and operability under realistic redox and reforming environments.
+
+Phase IV — In-Situ/Operando Infrastructure and Experiments: Fine-tuning of analytical programs for X-ray absorption spectroscopy ensures the extraction of oxidation states, coordination numbers, and dynamic structural evolution. This evaluation phase is essential to identify active phases, degradation pathways, and structural changes.
+
+Phase V — Modeling, Data Analysis and Publications: Comprehensive analysis of in-situ/operando results consolidates the interpretation of catalytic and electrochemical behavior. This stage integrates electrochemical data, structural evolution, and X-ray absorption spectroscopy data into a unified framework. The final quarters are dedicated to scientific dissemination, during which the findings are structured into publications.
+
+As explained, the project timeline covers eight quarters (24 months), as shown in the Figure \ref{projecttimeline}, and progresses from synthesis to device operando validation, with mechanisms that maximize feedback between materials development and advanced characterization. This minimizes risk, and accelerates optimization.
+
+\begin{figure}[h]
+\begin{spacing}{0.8} 
+ 
+\begin{ganttchart}[
+   hgrid={*7{gray, dotted}},
+   vgrid={*5{gray, dotted}}, 
+   x unit=1.15cm,
+   y unit chart=1.0cm,
+   time slot format=isodate,
+   title label font=\color{white},
+   title/.style={fill=black!60, draw=none},
+   time slot unit=month,
+   bar label node/.append style={align=left,text width=0.4\textwidth},
+   bar/.append style={draw=none, fill=Turquoise},
+   bar incomplete/.append style={fill=black!60}, 
+   vrule/.style={dashed,teal},%BrickRed
+   ]{2025-01-01}{2025-08-01}
+    %\gantttitlecalendar{year} \\
+    \gantttitlelist{1,...,8}{1}\\
+    %content bars
+
+    % ---- Synthesis ---
+    \ganttbar{{\small \color{black!60} 1- Synthesis of nano materials for Fuel Cells SOFCs}}{2025-01-01}{2025-02-01}
+    \ganttbar{}{2025-06-01}{2025-06-01}\\
+    % ---- Synthesis ---
+    \ganttbar{{\small \color{black!60} 2- Synthesis of nano materials for Electrolyzers SOECs}}{2025-01-01}{2025-02-01}
+    \ganttbar{}{2025-06-01}{2025-06-01}\\
+    % ---- Synthesis ---
+    \ganttbar{{\small \color{black!60} 3- Synthesis of Nanocatalysts for Steam Reforming of Ethanol}}{2025-01-01}{2025-02-01}
+    \ganttbar{}{2025-06-01}{2025-06-01}\\
+
+    % ---- Structural ----
+    \ganttbar{{\small \color{black!60} 4- Structural Characterization of All Developed Nanomaterials}}{2025-02-01}{2025-03-01}\\
+    % ---- Textural ----
+    \ganttbar{{\small \color{black!60} 5- Textural, and Morphological Characterization of All Developed Nanomaterials }}{2025-02-01}{2025-03-01}\\
+    % ---- Electrochemical ----
+    \ganttbar{{\small \color{black!60} 6- Electrochemical Characterization of Nanomaterials for SOFCs and SOECs}}{2025-02-01}{2025-03-01}
+    \ganttbar{}{2025-07-01}{2025-08-01}\\
+    % ---- Redox/Catalytic ----
+    \ganttbar{{\small\color{black!60} 7- Redox and Catalytic Characterization of All Proposed Nanomaterials}}{2025-03-01}{2025-03-01}
+    \ganttbar{}{2025-07-01}{2025-07-01}\\
+   
+    % ---- Cell Assembly ----
+    \ganttbar{{\small \color{black!60} 8- Assembly of Small-Sized SOFCs and SOECs for Testing}}{2025-03-01}{2025-03-01}\\
+    
+    
+    % ---- In-situ Design ----
+    \ganttbar{{\small \color{black!60} 9- Design of Cells for In-Situ/Operando Experiments on QUATI Beamline}}{2025-01-01}{2025-02-01}\\
+    % ---- Beamline Optimization ----
+    \ganttbar{{\small  \color{black!60}  10- Optimization of QUATI Beamline for In-Situ/Operando Studies}}{2025-04-01}{2025-04-01}\\
+    % ---- Cell Construction ----
+    \ganttbar{{\small  \color{black!60} 11- Construction of Reaction Cells for In-Situ/Operando Experiments on QUATI Beamline}}{2025-03-01}{2025-04-01}\\
+    % ---- Initial Operando ----
+    \ganttbar{{\small  \color{black!60}  12- Initial In-Situ/Operando Experiments on QUATI Beamline}}{2025-04-01}{2025-04-01}\\
+    % ---- Data Programs ----
+    \ganttbar{{\small  \color{black!60}  13- Fine-Tuning of Programs for Analysis of In-Situ/Operando Experimental Data}}{2025-04-01}{2025-06-01}\\
+    % ---- Modeling ----
+    \ganttbar{{\small  \color{black!60}  14- Evaluation of All Developed Materials through In-Situ and Operando Experiments}}{2025-04-01}{2025-07-01}\\
+    % ---- Data Analysis ----
+    \ganttbar{{\small  \color{black!60}  15- Analysis of Results from In-Situ and Operando Experiments}}{2025-05-01}{2025-08-01}\\
+    % ---- Publications ----
+    \ganttbar{{\small  \color{black}  16- Writing Publications}}{2025-07-01}{2025-08-01}
+
+    % milestone
+    %\ganttvrule{{\footnotesize Design concluded}}{2025-06-01}
+\end{ganttchart}
+\end{spacing}
+\caption{Project timeline.}
+\label{projecttimeline}
+\end{figure}
+
+

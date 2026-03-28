@@ -1,0 +1,126 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Font Family
+%\renewcommand{\rmdefault}{lmss}
+%\renewcommand{\rmdefault}{cmss}
+\renewcommand{\rmdefault}{phv}
+
+%\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{newunicodechar}
+\newunicodechar{δ}{\delta}
+
+\usepackage{graphicx, setspace}
+\usepackage{setspace}
+% Using \doublespacing in the preamble 
+% changes text to double line spacing
+
+\usepackage{pgfgantt}
+\usepackage{pgfcalendar}
+\usepackage{adjustbox}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[toc,page]{appendix}
+\usepackage{subcaption}
+
+\usepackage{graphicx}
+\usepackage{eso-pic}
+
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+%\bibliographystyle{unsrt}
+\addbibresource{mybib.bib}
+%\usepackage{biblatex} %Imports biblatex package
+%\addbibresource{mybib.bib} %Import the bibliography file
+
+\usepackage[all]{background}
+\usepackage{lipsum}
+\SetBgContents{ \color{black!60} \texttt{{\scriptsize {\it Preliminar 24.03.2026v1.0} }} }% Set contents
+\SetBgPosition{-0.5cm,-5.0cm}% Select location
+\SetBgOpacity{1.0}% Select opacity
+\SetBgAngle{90.0}% Select rotation of logo
+\SetBgScale{2.0}% Select scale factor of logo
+
+\usepackage{overpic}
+\usepackage{xcolor} 
+\usepackage{soul}
+
+%#######################################################################
+\usepackage[a4paper,
+            bindingoffset=10pt,
+            left=3.0cm,
+            right=3.0cm,
+            top=1.0cm,
+            bottom=2.5cm,
+            headheight=1.25cm,
+            headsep=0.9cm,
+            footskip=1.5cm,
+            includehead,
+            includefoot
+            ]{geometry}
+%Set header and footer using the fancyhdr package
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\lhead{\includegraphics[height=1.75cm,angle=270,trim= 9cm 2.35cm 9cm 24.65cm, clip]{Figures/lnls_logo.pdf}} % left logo
+\rhead{\includegraphics[height=3.25cm,angle=270,trim= 9.25cm 7.5cm 9.25cm 14.5cm, clip]{Figures/lnls_logo.pdf}} % right logo
+\rfoot{\includegraphics[height=4.5cm,angle=270,trim= 9.cm 15cm 9.cm 2.25cm, clip]{Figures/lnls_logo.pdf}}
+\cfoot{\thepage}
+
+\renewcommand{\headrulewidth}{0pt} % remove rule below header
+
+\pdfpkresolution=300
+
+%#######################################################################
+
+\begin{document}
+
+\pagenumbering{gobble}
+\input{Facepage}
+
+%\doublespacing
+\SetSinglespace{1.5}
+\singlespacing
+
+\tableofcontents
+
+\pagenumbering{arabic}
+%\include{Introduction}
+\include{ProjectSummary}
+\include{Project}
+\include{Methodology}
+\include{ExpectedResults}
+\include{Projecttimeline}
+\include{Dissemination}
+\include{Infrastructure}
+
+
+%Summary *
+%Research Project *
+    %Justification
+    %Objectives
+    %State of the Art
+%Methodology *
+    %Quati beamline *
+    %inovative insitu cell prototype *
+    %XAS & EIS combined *
+%Expected Results *
+
+%Schedule *
+%Dissemination Plan *
+%Infrastructure and Institutional Support *
+
+%Team Qualification
+
+
+
+%Budget Justification (technical draft structure)
+
+%\include{Appendix}
+
+\printbibliography[heading=bibintoc,title={References}]
+
+\end{document}
