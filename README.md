@@ -8,12 +8,12 @@ energy transition.
 The project also proposes the development of innovative experimental cells designed specifically for in-situ and operando investigations of solid oxide electrochemical devices and catalytic
 systems operating at intermediate and high temperatures. These cells will enable simultaneous structural, electronic, and chemical characterization under realistic operating conditions,
 providing unprecedented insight into catalytic, electrocatalytic, and ionic transport mechanisms
-governing Solid Oxide Fuel Cells (SOFCs), Solid Oxide Electrolyzer Cells (SOECs), and steam
+governing Solid Oxide Fuel Cells (SOFCs, see figure), Solid Oxide Electrolyzer Cells (SOECs), and steam
 reforming of ethanol processes for hydrogen production. The engineering of these experimental
 platforms will address limitations in current operando instrumentation by integrating thermal stability, controlled gas flow environments, electrochemical characterization capability, and X-ray
 transparency optimized for synchrotron-based X-ray absorption spectroscopy (XAS).
 
-The cells will be designed for research and development conducted at the QUATI beam-line of the Sirius synchrotron located at LNLS/CNPEM in Campinas. The fourth-generation
+The cells will be designed for research and development conducted at the synchrotron. The fourth-generation
 synchrotron light source provides exceptional brightness, coherence, and energy resolution,
 enabling nanoscale investigation of functional materials under realistic operational environments. The proposed experimental cells will be compatible with electrochemical impedance
 spectroscopy and X-ray absorption spectroscopy measurements, allowing time-resolved analysis of oxidation states, local coordination environments, and dynamic structural transformations
