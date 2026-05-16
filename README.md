@@ -8,10 +8,18 @@ energy transition.
 The project also proposes the development of innovative experimental cells designed specifically for in-situ and operando investigations of solid oxide electrochemical devices and catalytic
 systems operating at intermediate and high temperatures. These cells will enable simultaneous structural, electronic, and chemical characterization under realistic operating conditions,
 providing unprecedented insight into catalytic, electrocatalytic, and ionic transport mechanisms
-governing Solid Oxide Fuel Cells (SOFCs, see figure), Solid Oxide Electrolyzer Cells (SOECs), and steam
+governing Solid Oxide Fuel Cells (SOFCs, see Figure 1), Solid Oxide Electrolyzer Cells (SOECs), and steam
 reforming of ethanol processes for hydrogen production. The engineering of these experimental
 platforms will address limitations in current operando instrumentation by integrating thermal stability, controlled gas flow environments, electrochemical characterization capability, and X-ray
 transparency optimized for synchrotron-based X-ray absorption spectroscopy (XAS).
+
+
+ ![SOFC](/figures/README.PNG)
+ **Figure 1: SOFC device scheme showing the Cathode Oxygen Reduction Reaction (ORR), and
+the Anode Hydrogen Oxidation Reaction (HOR). The ionic conductivity (σion) of the electrolyte
+is governed by the migration of oxygen vacancies (V ··
+O ) in the crystal lattice, which follows the
+Arrhenius law dependence on temperature [1]. Figure addapted from  https://www.sciencedirect.com/science/article/pii/S0079642522001311.**
 
 The cells will be designed for research and development conducted at the synchrotron. The fourth-generation
 synchrotron light source provides exceptional brightness, coherence, and energy resolution,
