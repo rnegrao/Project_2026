@@ -14,7 +14,7 @@ platforms will address limitations in current operando instrumentation by integr
 transparency optimized for synchrotron-based X-ray absorption spectroscopy (XAS).
 
 
- ![SOFC](/figures/README.PNG)
+ ![SOFC](/Figures/README.PNG)
  **Figure 1: SOFC device scheme showing the Cathode Oxygen Reduction Reaction (ORR), and
 the Anode Hydrogen Oxidation Reaction (HOR). The ionic conductivity (σion) of the electrolyte
 is governed by the migration of oxygen vacancies (V ··
